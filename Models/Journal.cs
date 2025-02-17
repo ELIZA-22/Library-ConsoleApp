@@ -23,7 +23,7 @@ namespace LibraryApp.Models
 
         public override string ToString()
         {
-            return $"{Title} by {Author} published by {PublishedBy} on {DatePublished}";
+            return $"{Title} by {Author} published by {PublishedBy} on {DatePublished.ToShortDateString()}";
         }
         protected override string GetItemLocation()
         {
@@ -31,4 +31,4 @@ namespace LibraryApp.Models
         }
     }
 }
-
+  
