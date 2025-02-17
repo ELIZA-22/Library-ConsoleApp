@@ -12,3 +12,4 @@ C:\Users\Elizabeth\LibraryApp\obj\Debug\net9.0\refint\LibraryApp.dll
 C:\Users\Elizabeth\LibraryApp\obj\Debug\net9.0\LibraryApp.pdb
 C:\Users\Elizabeth\LibraryApp\obj\Debug\net9.0\LibraryApp.genruntimeconfig.cache
 C:\Users\Elizabeth\LibraryApp\obj\Debug\net9.0\ref\LibraryApp.dll
+C:\Users\Elizabeth\LibraryApp\obj\Debug\net9.0\LibraryApp.sourcelink.json

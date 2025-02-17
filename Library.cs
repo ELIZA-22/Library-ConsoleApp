@@ -51,27 +51,33 @@ namespace LibraryApp
         /// </summary>
          public void ListAllBooks()
          {
-             Console.BackgroundColor = ConsoleColor.Yellow;
+
+             Console.ForegroundColor = ConsoleColor.Yellow;
                 for (var i =0; i< Books.Count ; i++)
                 {
                     Console.WriteLine($"{i+1}. {Books[i]. ToString()}");
                 }
+            Console.ResetColor();
          }
           public void ListAllJournals()
 
          {
-            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
                 for (var i =0; i< Journals.Count ; i++)
                 {
                     Console.WriteLine($"{i+1}. {Journals[i]. ToString()}");
                 }
+            Console.ResetColor();
          }
           public void ListAllFilms()
-         {
+         {  
+            
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
                 for (var i =0; i< Films.Count ; i++)
                 {
                     Console.WriteLine($"{i+1}. {Films[i]. ToString()}");
                 }
+            Console.ResetColor();
          }
     }
 }
